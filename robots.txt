@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://miliaxe.github.io/al-folio/sitemap.xml
+Sitemap: https://miliaxe.github.io/sitemap.xml
