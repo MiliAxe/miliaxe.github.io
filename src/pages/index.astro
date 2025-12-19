@@ -12,13 +12,17 @@ import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
-import { lastUpdated } from "@/generated/lastUpdated";
 
 const posts = await getCollection("blog");
 
 const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
+const buildDate = new Date().toLocaleDateString("en-US", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
 ---
 
 <Layout>
@@ -59,7 +63,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       </p>
       <p class="mt-4">
         <span class="font-bold underline">Last updated:</span>
-        {lastUpdated}
+        {buildDate}
       </p>
       {
         // only display if at least one social link is enabled
