@@ -5,19 +5,27 @@
 
 :root,
 html[data-theme="light"] {
-  --background: #fdfdfd;
-  --foreground: #282728;
-  --accent: #006cac;
-  --muted: #e6e6e6;
-  --border: #ece9e9;
+  /* Gruvbox Light (Cream) */
+  --background: #fbf1c7;
+  --foreground: #3c3836;
+  --accent: #af3a03;
+  /* Gruvbox Dark Red/Orange for contrast */
+  --muted: #ebdbb2;
+  /* Light 1 */
+  --border: #d5c4a1;
+  /* Light 2 */
 }
 
 html[data-theme="dark"] {
-  --background: #212737;
-  --foreground: #eaedf3;
-  --accent: #ff6b01;
-  --muted: #343f60;
-  --border: #ab4b08;
+  /* Gruvbox Dark (Hard) */
+  --background: #282828;
+  --foreground: #ebdbb2;
+  --accent: #fe8019;
+  /* Gruvbox Bright Orange */
+  --muted: #3c3836;
+  /* Dark 1 */
+  --border: #504945;
+  /* Dark 2 */
 }
 
 @theme inline {
@@ -34,20 +42,25 @@ html[data-theme="dark"] {
     scrollbar-width: auto;
     scrollbar-color: var(--color-muted) transparent;
   }
+
   html {
     @apply overflow-y-scroll scroll-smooth;
   }
+
   body {
     @apply flex min-h-svh flex-col bg-background font-mono text-foreground selection:bg-accent/75 selection:text-background;
   }
+
   a,
   button {
     @apply outline-offset-1 outline-accent focus-visible:no-underline focus-visible:outline-2 focus-visible:outline-dashed;
   }
+
   button:not(:disabled),
   [role="button"]:not(:disabled) {
     cursor: pointer;
   }
+
   section,
   footer {
     @apply mx-auto max-w-app px-4;
