@@ -1,11 +1,11 @@
 ---
 author: Milad Zarei
 pubDatetime: 2025-12-27T19:51:00Z
-modDatetime: 2025-12-27T19:51:00Z
+modDatetime: 2026-01-07T19:01:00Z
 title: Rise of AI, Decline of authenticity
 slug: rise-of-ai-decline-of-authenticity
 featured: true
-draft: true
+draft: false
 tags:
   - life
   - mindset
@@ -78,4 +78,64 @@ I get my tasks done in courses. I might get good grades, but me knowing that
 I didn't really do them myself makes me depressed and agitated. My work is
 inauthentic, and they don't really represent me.
 
-Here I point some possible causes for this
+Here I point some possible causes for this:
+
+- **Grade-centered academia**: with the current state of Iran, students are mostly
+  focusing on getting grades to flee the country via the means of academic
+  immigration, students tend to do anything just to get that good grades. e.g.
+  They don't really care if they learn the content of the course if an LLM can
+  easily give them an easy solution.
+- **Professors not caring:** at this current state, professors don't really care
+  that much if a submission is an AI copypasta or not. No real deterrence exists
+  to keep students from offloading their learning to an LLM.
+- **Not liking CE/CS:** most of the students in Iran chose to study CE/CS solely
+  because of the hype exists around it, there is a significant stigma around
+  not going to CE/CS if you did well in [Iranian University Entrance Exam](https://en.wikipedia.org/wiki/Iranian_University_Entrance_Exam).
+  This means not really caring about learning.
+- **Burnout:** this factor can cause you to get to a [Nonchalance
+  blackhole](/posts/nonchalance).
+
+---
+
+## My Experience
+
+This whole idea of abusing LLMs being destructive purely came from a personal
+experience and feeling. In my 7th semester I have been abusing LLMs across my
+courses, and I have observed most of the surrounding students are abusing it --
+whether voluntarily or involuntarily -- in their courses as well.
+
+There is no doubt that LLMs have drastically improved the speed in which we
+create new things. We can now prototype, code and build things in minutes
+instead of learning, reading and doing trial and error for it for days. But...
+
+I miss writing, coding and learning that I had in the pre-LLM era.
+There is some sort of magical feeling that I get when I create something purely
+by my own hands. I feel proud of the things I build and code myself without the
+help of an LLM. Anything that I don't build myself, I regard as inauthentic, and
+I don't really like getting credit for it.
+
+We clearly need a definitive guideline on when we are abusing LLMs.
+
+---
+
+## Some articles on AI slop
+
+Here are some news I came across when I was researching the effects of abusing
+LLMs (I ironically got them by using Gemini Deep Research):
+
+### Nearly half of AI-Generate code is insecure
+
+[This](https://www.businesswire.com/news/home/20250730694951/en/AI-Generated-Code-Poses-Major-Security-Risks-in-Nearly-Half-of-All-Development-Tasks-Veracode-Research-Reveals) was a rather interesting thing
+that I came across in the process.
+
+### Microsoft's Survey
+
+[Microsoft has this very interesting surver](https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf) on the effects of LLMs on their worker's critical thinking,
+and
+it has a lot valuable information in it. Notably, they found "a significant
+negative correlation between the frequency with which AI tools were used and
+critical thinking scores".
+
+### Paradox of creativity
+
+[Read it here](https://pmc.ncbi.nlm.nih.gov/articles/PMC12369561/#conf1).
