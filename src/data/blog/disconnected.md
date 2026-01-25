@@ -43,3 +43,38 @@ I would like to talk about this feeling more here. Because it is rather
 weird. I feel like some sort of numbness or incapability to think. I wrote
 about "missing thinking" and, I can feel it missing here. Maybe this whole
 series of events will force me to do some thinking again?
+
+## 14 days later...
+
+It has been about 14 days after the internet is disconnected, the government
+keeps promising that "soon" the internet will be connected again. The
+detrimental effects so far are devastating. Thousands of online shops are
+deactivated, and their sales are close to none. Many individuals are suffering
+a financial crisis because of not being able to connect to the outside.
+
+I highly doubt that the internet will be reconnected soon enough. I am losing
+more hope day by day.
+
+## 17 days later...
+
+I have managed to connect to the outer world since for some reason my proxy
+works here now and then, the cellular data services seem to have very weird
+restrictions set on them. Still, I can't access the internet as hassle-free
+as I used to. I haven't been able to update my packages on my computers. Even
+though Iranian mirrors exist for Arch Linux, they are also not synchronized
+with the outer world. Every day in the news we get somebody claiming the internet
+will be back today or tomorrow but there is no trust and hope in them.
+
+Life is a computer enthusiast and student is very disrupted, we haven't been
+able to write the final projects for many courses because we can't even do basic
+things such as read documentations online, download needed libraries and such.
+
+The internet outage's mental and financial toll on the society is visible, days
+stretch in boredom and uselessness for every member in the society. People can't
+consume any sort of entertainment content of any sort.
+
+I used to think that maybe internet detox would fix some of my life problems but
+after this forceful period of internet disruption I'm starting to doubt whether
+my problems where rooting from abusing internet. I don't really do anything
+useful nowadays. Most of the people I know around me don't as well. It feels
+like we are on some sort of unwanted, forced vacation that nobody likes.
