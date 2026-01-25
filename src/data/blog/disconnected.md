@@ -5,7 +5,7 @@ modDatetime: 2025-01-10T13:14:00Z
 title: Disconnected
 slug: disconnected
 featured: true
-draft: true
+draft: false
 tags:
   - internet
   - disconnection
