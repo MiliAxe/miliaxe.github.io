@@ -4,7 +4,7 @@ pubDatetime: 2025-12-27T19:51:00Z
 modDatetime: 2026-01-07T19:01:00Z
 title: Rise of AI, Decline of authenticity
 slug: rise-of-ai-decline-of-authenticity
-featured: true
+featured: false
 draft: false
 tags:
   - life
