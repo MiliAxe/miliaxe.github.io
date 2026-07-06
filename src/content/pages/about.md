@@ -1,7 +1,6 @@
 ---
-layout: ../layouts/AboutLayout.astro
 title: "About"
-date: "2024-05-15T00:10:00+0330"
+description: "Whoami? Interests, Current Setup, Favorite content creators"
 ---
 
 <div class="flex flex-col md:flex-row items-center gap-8">
