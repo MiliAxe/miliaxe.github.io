@@ -14,19 +14,11 @@ export const GET: APIRoute = async context => {
     throw new Error("Cannot find the font path.");
   }
 
-  const getFontUrl = (fontPath: string) => {
-    const url = new URL(experimental_getFontFileURL(fontPath, context.url));
-    if (url.hostname === "localhost" || url.hostname.includes(":") || url.hostname === "0.0.0.0") {
-      url.hostname = "127.0.0.1";
-    }
-    return url.toString();
-  };
-
   const [regularData, boldData] = await Promise.all([
-    fetch(getFontUrl(regularFontPath)).then(res =>
+    fetch(experimental_getFontFileURL(regularFontPath, context.url)).then(res =>
       res.arrayBuffer()
     ),
-    fetch(getFontUrl(boldFontPath)).then(res =>
+    fetch(experimental_getFontFileURL(boldFontPath, context.url)).then(res =>
       res.arrayBuffer()
     ),
   ]);
