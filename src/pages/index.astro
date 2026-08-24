@@ -42,7 +42,7 @@ const buildDate = new Date().toLocaleDateString("en-US", {
       <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
         Milad Zarei
       </h1>
-      <span class="text-accent font-mono text-2xl">~/Blog/</span>
+      <span class="ml-2 text-accent font-mono text-2xl">~/Blog/</span>
       <a
         target="_blank"
         href={`${import.meta.env.BASE_URL.replace(/\/?$/, "/")}rss.xml`}
@@ -53,7 +53,7 @@ const buildDate = new Date().toLocaleDateString("en-US", {
         <IconRss
           width={20}
           height={20}
-          class="stroke-accent scale-125 stroke-3 rtl:-rotate-90"
+          class="ml-2 stroke-accent scale-125 stroke-3 rtl:-rotate-90"
         />
         <span class="sr-only">RSS Feed</span>
       </a>
@@ -65,14 +65,14 @@ const buildDate = new Date().toLocaleDateString("en-US", {
       <p class="mt-2">
         Read the blog posts or check
         <LinkButton
-          class="hover:text-accent underline decoration-dashed underline-offset-4"
+          class="ml-2 hover:text-accent underline decoration-dashed underline-offset-4"
           href="/about/"
         >
           About
         </LinkButton> for more info.
       </p>
       <p class="mt-4">
-        <span class="font-bold underline">Last updated:</span>
+        <span class="mr-2 font-bold underline">Last updated:</span>
         {buildDate}
       </p>
       {
