@@ -3,7 +3,7 @@ author: Milad Zarei
 pubDatetime: 2025-03-14T13:37:00Z
 modDatetime: 2025-03-14T13:37:00Z
 title: Learning in the AI era
-featured: true
+featured: false
 slug: meaning-in-ai-era
 draft: false
 tags:
