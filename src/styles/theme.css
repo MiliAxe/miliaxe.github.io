@@ -1,0 +1,36 @@
+/* Register design tokens for Tailwind v4 */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --font-app: var(--font-google-sans-code);
+}
+
+/* Light theme values */
+:root,
+[data-theme="light"] {
+  /* Gruvbox Light (Cream) */
+  --background: #fbf1c7;
+  --foreground: #3c3836;
+  --accent: #af3a03;
+  --accent-foreground: #fbf1c7;
+  --muted: #ebdbb2;
+  --muted-foreground: #7c6f64;
+  --border: #d5c4a1;
+}
+
+/* Dark theme values */
+[data-theme="dark"] {
+  /* Gruvbox Dark (Hard) */
+  --background: #282828;
+  --foreground: #ebdbb2;
+  --accent: #fe8019;
+  --accent-foreground: #282828;
+  --muted: #3c3836;
+  --muted-foreground: #a89984;
+  --border: #504945;
+}
