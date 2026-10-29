@@ -4,10 +4,11 @@ export default defineAstroPaperConfig({
   site: {
     url: "https://miladzm.ir",
     title: "Milad Zarei",
-    description: "Mili's personal blog",
+    description:
+      "Personal blog of Milad Zarei (Milad Zarei Maleki) — thoughts and write-ups on low-level programming, GNU/Linux, networking, and software engineering.",
     author: "Milad Zarei",
     profile: "https://miladzm.ir/",
-    ogImage: "astropaper-og.jpg",
+    ogImage: "og.png",
     lang: "en",
     timezone: "Asia/Tehran",
     dir: "ltr",
