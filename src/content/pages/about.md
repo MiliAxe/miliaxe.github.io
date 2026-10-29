@@ -7,7 +7,7 @@ description: "Whoami? Interests, Current Setup, Favorite content creators"
   <div class="w-full md:w-1/2">
     <h2 class="text-2xl font-bold">Whoami?</h2>
     <p class="mt-4 leading-relaxed">
-        I'm Mili (Milad Zarei), a junior Computer Engineering student.
+        I'm Mili (Milad Zarei Maleki, though I usually go by Milad Zarei), a junior Computer Engineering student.
         <br /><br />
         I'm interested in creating things that make life easier. Furthermore,
         I'm a fan of free software (free as in freedom) and I'm trying to reach
