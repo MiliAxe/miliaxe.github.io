@@ -16,6 +16,29 @@ if (!about) {
 }
 
 const { Content } = await render(about);
+
+const sameAsLinks = [
+  ...config.socials
+    .map(({ url }) => url)
+    .filter(url => !url.startsWith("mailto:")),
+  "https://miliaxe.github.io",
+];
+
+const profilePageSchema = {
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  mainEntity: {
+    "@type": "Person",
+    "@id": `${config.site.url}/#person`,
+    name: config.site.author,
+    alternateName: ["Mili", "Milad ZM", "میلاد زارعی"],
+    url: config.site.url,
+    image: `${config.site.url}/assets/selfoptimized.jpg`,
+    jobTitle: "Computer Engineering Student",
+    description: about.data.description,
+    sameAs: sameAsLinks,
+  },
+};
 ---
 
 <Layout
@@ -24,6 +47,13 @@ const { Content } = await render(about);
   ogImage={about.data.ogImage}
   canonicalURL={about.data.canonicalURL}
 >
+  <Fragment slot="head">
+    <script
+      type="application/ld+json"
+      is:inline
+      set:html={JSON.stringify(profilePageSchema)}
+    />
+  </Fragment>
   <Header />
 
   <Breadcrumb />

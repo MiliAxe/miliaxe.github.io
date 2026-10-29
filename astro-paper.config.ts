@@ -29,6 +29,7 @@ export default defineAstroPaperConfig({
   },
   socials: [
     { name: "github",   url: "https://github.com/MiliAxe" },
+    { name: "linkedin", url: "https://www.linkedin.com/in/milad-zarei-maleki" },
     { name: "mail",     url: "mailto:miliaxe0@gmail.com" },
   ],
   shareLinks: [

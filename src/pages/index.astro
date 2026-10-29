@@ -28,9 +28,49 @@ const buildDate = new Date().toLocaleDateString("en-US", {
   month: "long",
   day: "numeric",
 });
+
+const sameAsLinks = [
+  ...config.socials
+    .map(({ url }) => url)
+    .filter(url => !url.startsWith("mailto:")),
+  "https://miliaxe.github.io",
+];
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": `${config.site.url}/#person`,
+      name: config.site.author,
+      alternateName: ["Mili", "Milad ZM", "میلاد زارعی"],
+      url: config.site.url,
+      image: `${config.site.url}/assets/selfoptimized.jpg`,
+      jobTitle: "Computer Engineering Student",
+      sameAs: sameAsLinks,
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${config.site.url}/#website`,
+      url: config.site.url,
+      name: config.site.title,
+      description: config.site.description,
+      publisher: {
+        "@id": `${config.site.url}/#person`,
+      },
+    },
+  ],
+};
 ---
 
 <Layout>
+  <Fragment slot="head">
+    <script
+      type="application/ld+json"
+      is:inline
+      set:html={JSON.stringify(structuredData)}
+    />
+  </Fragment>
   <Header />
   <main
     id="main-content"

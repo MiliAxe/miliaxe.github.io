@@ -16,6 +16,13 @@ const { site } = config;
 const { title, description, ogImage, canonicalURL, pubDatetime, modDatetime } =
   Astro.props;
 
+const authorSameAs = [
+  ...config.socials
+    .map(({ url }) => url)
+    .filter(url => !url.startsWith("mailto:")),
+  "https://miliaxe.github.io",
+];
+
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -28,6 +35,7 @@ const structuredData = {
       "@type": "Person",
       name: site.author,
       ...(site.profile && { url: site.profile }),
+      sameAs: authorSameAs,
     },
   ],
 };

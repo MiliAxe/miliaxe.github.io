@@ -70,3 +70,12 @@ Or maybe have you ever came across these beautiful blogs that people share their
 
 Well, that is what initially inspired me to create a personal website. Maybe I can help out a single
 soul on a specific topic. Plus, I think this is way better than sharing content on modern social media.
+
+---
+
+## Connect
+
+- **GitHub:** [MiliAxe](https://github.com/MiliAxe)
+- **LinkedIn:** [Milad Zarei](https://www.linkedin.com/in/milad-zarei-maleki)
+- **Email:** [miliaxe0@gmail.com](mailto:miliaxe0@gmail.com)
+
